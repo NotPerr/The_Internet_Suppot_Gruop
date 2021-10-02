@@ -1,0 +1,225 @@
+h1.b {
+  font-family: "Sofia", sans-serif;
+  font-size: 60px;
+  margin: 10px;
+
+}
+
+section.homepage-shop {
+  align-content: center;
+  align-items: center;
+  background: #f6f1e8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.shop {
+  margin: 0 25% 0 25%;
+  width: 50%;
+}
+
+
+nav {
+
+  max-width: 50%;
+  margin: 15% 25% 13% 25%;
+
+  padding: 0em;
+  text-align: center;
+  display: flex;
+  justift-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+body {
+
+  background: #f6f1e8;
+
+  font-family: Space Mono, monospace;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+
+
+.bg-hp-hero {
+  background-image: url(https://brobible.com/wp-content/uploads/2019/11/istock-153696622.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 40px;
+  box-shadow: 4px 3px 0 0 #000;
+  font-size: 22px;
+  font-weight: bold;
+  height: auto;
+  left: -2px;
+  padding: 18px 20px;
+  position: relative;
+
+  width: 200px;
+  cursor: pointer;
+
+}
+.btn-1 {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 40px;
+  box-shadow: 4px 3px 0 0 #000;
+  font-size: 10px;
+  font-weight: bold;
+  height: auto;
+  left: -2px;
+  padding: 6px 8px;
+  position: relative;
+
+  width: 80px;
+  cursor: pointer;
+
+}
+@media screen and (max-width: 768px) {
+  .bg-hp-hero {
+    background-image: url(https://www.meme-arsenal.com/memes/c153f938768d3d03772a4b80ba96fe62.jpg);
+
+    /* vertical */
+
+  }
+}
+
+
+.marquee-banner {
+  text-align: center;
+  max-width: 100vw;
+
+  background-color: #c4d6a4;
+  align-items: center;
+
+
+  display: flex;
+  flex-direction: column;
+  margin: 5em 0 0 0;
+
+
+}
+
+.font-barlow {
+  color: #234e32;
+  font-size: 40px;
+
+}
+a {
+  color: #234e32;
+  font-size: 30px;
+}
+
+img.bar {
+  vertical-align: middle;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  background-color: blue;
+  border-radius: 12px 0px 0px 12px;
+  flex-direction: column;
+  padding: 12px 0px 0px 12px;
+  
+}
+
+.save {
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.invite {
+
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.friends {
+  font-size: 8px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+form {
+  font-weight: bold;
+    
+}
+
+fieldset {
+  font-weight: bold;
+  width: 55%;
+  margin: 10px auto;
+  padding: 1em;
+  background: #f6f1e8;
+  border-color: #ed61a5;
+  font-family: Space Mono, monospace;
+
+}
+
+.hvr:hover {
+  border: 2px solid lightblue;
+}
+
+textarea {
+  border-color: #ed61a5;
+}
+
+textarea:hover {
+  border: 1px solid lightblue;
+}
+
+input {
+  border-color: #ed61a5;
+}
+
+select {
+  border-color: #ed61a5;
+}
+
+legend {
+  color: #3dc4b2;
+  background-color: white;
+  border-radius: 3px;
+}

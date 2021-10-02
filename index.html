@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>The Internet Support Group</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script src="./script.js" ></script>
+  </head>
+
+  <body class="bg-hp-hero">
+
+<div id="overlay" >
+  <div id="text">
+    
+     <fieldset>
+  <legend >個人資料</legend>
+  <form  action="/add-product" method="post">
+  姓名:<br>
+  <input type="text" placeholder="姓名" name = "name" class="hvr">
+  <br>
+  email:
+  <br>
+  <input type="text" placeholder="email" name="email" class="hvr">
+  <br>
+  性別:
+  <br>
+  <input type = "radio" name = "sex" value = "male" > 男
+  <input type = "radio" name = "sex" value = "female" > 女
+  <br>
+ 
+  所屬的哈利波特學院:
+  <br>
+  <select name = "category">
+            <option value = "select" >select</option>
+            <option value="Gryffindor" >葛萊芬多</option>
+            <option value="Hufflepuff" >赫夫帕夫</option>
+            <option value="  Ravenclaw" > 雷文克勞</option>
+            <option value="Slytherin" > 史萊哲林</option>
+            
+  </select>
+  <br>
+  備註:
+  <br>
+  <textarea rows = "5" cols = "50" name = "description" >
+            Enter description here...
+         </textarea>
+  <button type="submit" form="signUpForm">Submit</button>
+  </form><br>
+    <button class="btn-1" onclick="off()">關閉</button>
+</fieldset>
+
+    
+  </div>
+</div>
+
+
+    
+
+
+      <nav>
+        <h1 align="center" class="b">The Internet Support Group</h1>
+      </nav>
+      <nav style=" background-color: rgba(245, 225, 145, 0.18); border-radius: 40px;">
+        <p>需要幫助嗎?<br>現在就加入<br> The Internet Support Group</p>
+        <button class="btn" onclick="on()">報名</button>
+
+
+      </nav>
+
+
+
+      <div class="marquee-banner">
+       
+          <a href="./index-1.html"><img class="bar" src="https://cdn.shopify.com/s/files/1/0246/0621/2145/files/smile.png?v=1618455373">相關報導</a>
+          
+      </div>
+
+      
+      <div class="fixed">
+      <button class="save">
+        <p class="invite">SAVE 20% </p><br>
+        <p class="friends">With Friends</p>
+      </button>
+    </div>
+      
+      
+    
+
+
+    
+    </body>
+    
+    
+    
+    
+    
+      
+    
+    </html>

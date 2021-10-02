@@ -1,0 +1,213 @@
+body {
+
+  padding: 10px;
+  font-family: Noto Sans TC, Roboto, Arial, sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.head {
+  border-bottom: thin solid;
+}
+
+.head1 {
+   margin: 1em 35%;
+}
+
+@media (min-width:600px) {
+  nav {
+    float: right;
+    width: 25%;
+  }
+ 
+  section {
+    margin-right: 25%;
+    
+  }
+}
+
+@media (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
+img.p {
+   width: 100%;
+}
+
+p.other {
+  border-left: 6px solid red;
+  padding: 5px;
+}
+
+a:link.underline {
+  text-decoration: none;
+  color: #404040;
+}
+
+a:visited.underline {
+  text-decoration: none;
+  color: #404040;
+}
+
+a:hover.underline {
+
+  text-decoration: underline;
+  color: #404040;
+}
+
+.red {
+
+  color: red;
+}
+
+.first {
+   color: #333333;
+  font-size: 40px;
+  float: left;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-bottom: 5px solid red;
+  padding-bottom: 9px;
+}
+p.pa{
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: #404040;
+  font-weight: bold;
+  
+  font-size: 20px;
+}
+h2.red {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: red;
+  font-weight: bold;
+  
+}
+
+/* 圖片+灰字div */
+div.p1Word{
+  margin: 50px 0px;
+  color: #bfbfbf;
+  font-weight: bold;
+}
+
+/* 相關報導連結 */
+a:link.r {
+  text-decoration: none;
+  color: #bfbfbf;
+  border-bottom: 1px solid yellow;
+}
+
+a:visited.r {
+  text-decoration: none;
+  color: #bfbfbf;
+  border-bottom: 1px solid yellow;
+}
+
+a:hover.r {
+
+  text-decoration: none;
+  color: #bfbfbf;
+  border-bottom: 1px solid red;
+}
+
+/* 其他連結 */
+a:link.re {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+
+a:visited.re {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+a:hover.re {
+
+  text-decoration: underline;
+  color: red;
+   font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+
+/* 圖片廣告連結 */
+.adPic {
+  float: left;
+  margin: 0 1em 1em 1em;
+}
+
+
+/* 熱門新聞 */
+
+h2.hot {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid #bfbfbf;
+  margin: 0 1em 0 1em;
+}
+
+li.hot {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 1em 0 1em 0;
+}
+
+a:link.hot {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+
+a:visited.hot {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+a:hover.hot {
+
+  text-decoration: underline;
+  color: black;
+   font-size: 20px;
+   line-height: 1.6;
+  letter-spacing: 1px;
+   font-weight: bold;
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 40px;
+  box-shadow: 4px 3px 0 0 #000;
+  font-size: 22px;
+  font-weight: bold;
+  height: auto;
+  left: -2px;
+  padding: 18px 20px;
+  position: relative;
+
+  width: 200px;
+  cursor: pointer;
+
+}
